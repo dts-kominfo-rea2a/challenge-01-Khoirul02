@@ -14,7 +14,7 @@ const firstUser = {
     gender : 'Female',
     age : 17,
     email : 'monica@dingdong.com',
-    favoriteColor: new Set(...setColorFirstUser),
+    favoriteColor: [...setColorFirstUser],
     isHavePet: 'Yes',
     education: [
         { 
@@ -32,14 +32,14 @@ const firstUser = {
             city: 'Tangerang'
         }
     ],
-    favoriteRestaurant: new Set(...setRestaurantFirstUser),
+    favoriteRestaurant: [...setRestaurantFirstUser],
 };
 const secondUser = {
     name : 'Wendy',
     gender : 'Male',
     age : 23,
     email : 'wendy@dingdong.com',
-    favoriteColor: new Set(...setColorSecondUser),
+    favoriteColor: [...setColorSecondUser],
     isHavePet: 'No',
     education: [
         {
@@ -62,7 +62,7 @@ const secondUser = {
             city: 'Tangerang'
         }
     ],
-    favoriteRestaurant: new Set(...setRestaurantSecondUser),
+    favoriteRestaurant: [...setRestaurantSecondUser],
 };
     
 // TODO: Masukkan hasil akhir dari kedua user di sini
