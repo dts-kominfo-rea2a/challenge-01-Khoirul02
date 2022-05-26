@@ -1,4 +1,4 @@
-const { users } = require("./index");
+import { users } from "./index";
 
 describe("users - attribute", () => {
   it("should have monica as first user with complete attribute", async () => {

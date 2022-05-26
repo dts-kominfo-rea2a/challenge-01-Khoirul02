@@ -1,4 +1,4 @@
-const { users } = require("./index");
+import { users } from "./index";
 
 describe("users - array", () => {
   it("should be an array", async () => {
