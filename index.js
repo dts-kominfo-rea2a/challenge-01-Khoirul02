@@ -1,9 +1,39 @@
 // TODO: Buatlah data dari kedua user di sini
 // Tentukan tipe data dan struktur data yang menurut kalian tepat
 // Kalian bisa membuat variabel lain untuk dimasukkan ke dalam atribut user agar lebih mudah dibaca
-const colorsFirstUser = ['Yellow','Pink', 'White', 'Purple'];
+const colorsFirstUser = [
+    {   
+        id : 1,
+        color : 'Yellow'
+    },
+    {   
+        id : 2,
+        color : 'Pink', 
+    },
+    {   
+        id : 3,
+        color : 'White', 
+    },
+    {   
+        id : 4,
+        color : 'Purple', 
+    }
+];
 const restaurantFirstUser = ['Bento','Sushi','Pancake','Eggy','Tempura','Bento','Eggy','Padang','Tteok','Sushi','Sushi'];
-const colorsSecondUser = ['Blue','Black', 'Grey'];
+const colorsSecondUser = [
+    {   
+        id : 1,
+        color : 'Blue'
+    },
+    {   
+        id : 2,
+        color : 'Black', 
+    },
+    {   
+        id : 3,
+        color : 'Grey', 
+    }
+];
 const restaurantSecondUser = ['Tempura', 'Bento', 'Sushi', 'Pancake', 'Padang', 'Katsu', 'Geprek', 'Pancake', 'Eggy'];
 
 const firstUser = {
