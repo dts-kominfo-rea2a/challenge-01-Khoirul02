@@ -1,4 +1,4 @@
-import { users } from "./index";
+const { users } = require("./index");
 
 describe("users - color & restaurant", () => {
   it("should have unique favorite color attribute", async () => {    
